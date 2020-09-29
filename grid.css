@@ -60,8 +60,7 @@
 
 .aside {
     grid-area: aside;
-    /* display: inline-block; */
-    margin: 0.8vw auto;
+    margin-top: 0.8vw;
 }
 
 .footer {
