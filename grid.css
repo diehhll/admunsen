@@ -64,12 +64,6 @@
     margin: 0.8vw auto;
 }
 
-.adImage {
-    /* display: block; */
-    max-width: 100%;
-    height: auto;
-}
-
 .footer {
     grid-area: footer;
     background-color: #111;

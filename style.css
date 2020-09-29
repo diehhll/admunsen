@@ -51,3 +51,52 @@ th, td {
 .form .checkbox, .form .option {
     float: left;
 }
+
+.adImage {
+    /* display: block; */
+    max-width: 100%;
+    height: auto;
+    margin: auto auto;
+}
+
+/*Mobile ad*/
+
+@media only screen and (min-width: 100px) {
+    .ad-show-sm {
+        display: block !important;
+    }
+    .ad-show-md {
+        display: none !important;
+    }
+    .ad-show-lg {
+        display: none !important;
+    }
+}
+
+/*Tablet ad*/
+
+@media only screen and (min-width: 768px) {
+    .ad-show-sm {
+        display: none !important;
+    }
+    .ad-show-md {
+        display: block !important;
+    }
+    .ad-show-lg {
+        display: none !important;
+    }
+}
+
+/*Desktop ad*/
+
+@media only screen and (min-width: 1200px) {
+    .ad-show-sm {
+        display: none !important;
+    }
+    .ad-show-md {
+        display: none !important;
+    }
+    .ad-show-lg {
+        display: block !important;
+    }
+}
